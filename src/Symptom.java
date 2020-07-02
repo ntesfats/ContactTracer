@@ -27,5 +27,9 @@ public class Symptom {
     public void setNumberOfDays(int numberOfDays) {
         this.numberOfDays = numberOfDays;
     }
+
+    public String toString() {
+        return "\t\thad " + this.name + " for " + this.numberOfDays + " days";
+    }
 }
 

@@ -36,4 +36,8 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
+    public String toString() {
+        return "\t\tName: " + this.name + "\n\t\tPhone: " + this.phoneNumber + "\n\t\tEmail: " + this.email;
+    }
+
 }
